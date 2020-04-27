@@ -12,7 +12,6 @@ body {
     width: 400px;
     background-color: black;
     color: white;
-    border: solid yellow
 }
 .screen{
     text-align: right;
@@ -20,7 +19,38 @@ body {
     padding: 20px 5px;
     font-size: 45px; 
 }
-.rows-1{
+.rows{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-bottom:.5%; 
+}
+.col-btn{
+    background-color: white;
+    color: black;
+    border: none;
+    font-size:40px;
+    height: 100px; 
+    flex-basis: 24.5%;
+}
+.col-btn:hover{
+    background-color: #dfb07e;
+}
+
+.col-btn:active{
+    background-color: #dd8d37;
+}
+.bigger{
+    flex-basis: 49.7%;
+}
+.tripple{
+    flex-basis: 74.8%;
+}
+.col-btn:last-child{
+    color: white;
+    background-color: #dd8d37;
+}
+.col-btn:last-child:hover{
+    color: #dfb07e
+
 }
